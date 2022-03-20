@@ -120,15 +120,15 @@ button {
 	padding: 4% 3%;
 }
 
-.deposit-withdraw-container {
+.deposit-withdraw-container1 {
 	margin-top: 5%;
 	text-align: end;
 }
 
 .deposit-btn {
 	padding: 7px !important;
-	padding-left: 6% !important;
-	padding-right: 6% !important;
+	padding-left: 65px !important;
+	padding-right: 65px !important;
 	background-color: #474242 !important;
 	border-radius: 40px !important;
 	color: white !important;
@@ -136,8 +136,8 @@ button {
 
 .withdraw-btn {
 	padding: 7px !important;
-	padding-left: 6% !important;
-	padding-right: 6% !important;
+	padding-left: 65px !important;
+	padding-right: 65px !important;
 	border-radius: 40px !important;
 	color: white !important;
 	margin-left: 15px !important;
@@ -157,6 +157,7 @@ button {
 	border-radius: 20px;
 	padding: 4% 3%;
 	width: 48%;
+	text-align: center;
 }
 
 .luna-container {
@@ -164,4 +165,32 @@ button {
 	border-radius: 20px;
 	padding: 4% 3%;
 	width: 48%;
+	text-align: center;
+}
+
+.apr-container {
+	margin-top: 4%;
+	text-align: center;
+	justify-content: space-around;
+	display: inline-flex;
+	align-items: center;
+}
+
+.apr-container button {
+	padding: 5px !important;
+	padding-left: 40% !important;
+	padding-right: 40% !important;
+	background-color: #474242 !important;
+	border-radius: 40px !important;
+	color: white !important;
+}
+
+.apr-container p {
+	margin-bottom: 0px !important;
+	margin-left: 30%;
+}
+
+.deposit-withdraw-container2 {
+	margin-top: 7%;
+	text-align: center;
 }
