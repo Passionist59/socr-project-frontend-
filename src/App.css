@@ -223,3 +223,14 @@ button {
 	box-shadow: 1px 4px 1px rgb(29, 29, 29);
 }
 
+.footer-container {
+	margin-top: 9%;
+	padding-bottom: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footericon-container {
+	display: flex;
+	grid-gap: 0 2.5rem;
+}
