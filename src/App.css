@@ -194,3 +194,32 @@ button {
 	margin-top: 7%;
 	text-align: center;
 }
+
+.expected-container {
+	margin-top: 5vh;
+	background-color: #2b2828;
+	border-radius: 20px;
+	padding: 4% 3%;
+}
+
+.period-btn-container {
+	margin-top: 5%;
+	border-radius: 40px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+
+.period-btn-container button {
+	padding: 7px auto !important;
+	width: 25%;
+	border-radius: 40px !important;
+	color: white !important;
+}
+
+.period-btn-container button:focus {
+	background-color: #474242 !important;
+	box-shadow: 1px 4px 1px rgb(29, 29, 29);
+}
+

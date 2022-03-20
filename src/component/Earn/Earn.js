@@ -51,6 +51,18 @@ export default function Earn() {
                     </div>
                 </div>
             </div>
+
+                {/* Expected invest */}
+            <div className='expected-container'>
+                <h5 style={{fontWeight:'650', marginBottom:'0px'}}>EXPECTED INTEREST BASED ON YOUR DEPOSIT</h5>
+                <h2>432,875 <span style={{fontSize:'18px', fontWeight:'650'}}>UST</span></h2>
+                <div className='period-btn-container'>
+                    <Button>YEAR</Button>
+                    <Button>MONTH</Button>
+                    <Button>WEEK</Button>
+                    <Button>DAY</Button>
+                </div>
+            </div>
             
         </Container>
     )

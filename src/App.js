@@ -1,14 +1,15 @@
-import React, {useState} from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route, 
 } from "react-router-dom";
-import Navigation from "./Navbar/Navbar.js";
-import Dashboard from './Dashboard/Dashboard';
-import Mypage from './Mypage/Mypage';
-import Earn from './Earn/Earn';
-import Utility from './Utility/Utility'
+import Navigation from "./component/Navbar/Navbar.js";
+import Dashboard from './component/Dashboard/Dashboard';
+import Mypage from './component/Mypage/Mypage';
+import Earn from './component/Earn/Earn';
+import Utility from './component/Utility/Utility'
+import Footer from "./component/Footer/Footer.js";
 
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="utility" element={<Utility />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 }
