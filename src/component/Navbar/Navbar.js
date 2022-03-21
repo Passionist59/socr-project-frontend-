@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Navigation() {
     return (
         <>
-            <Navbar expand="lg" sticky="top">
+            <Navbar expand="lg" sticky="top" className='navigation-bar'>
                 <Container className='navigation-container'>
                     <Nav.Link href="dashboard">DASHBOARD</Nav.Link>
                     <Nav.Link href="mypage">MYPAGE</Nav.Link>
