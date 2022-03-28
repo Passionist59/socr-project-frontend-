@@ -10,7 +10,7 @@ import Mypage from './component/Mypage/Mypage';
 import Earn from './component/Earn/Earn';
 import Utility from './component/Utility/Utility'
 import Footer from "./component/Footer/Footer.js";
-
+import "@progress/kendo-theme-material/dist/all.css";
 import './App.css';
 
 function App() {

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Container, Image } from 'react-bootstrap';
 import Button from '@mui/material/Button';
+import Luna from '../../assets/images/luna.png';
+import Ust from '../../assets/images/ust.png';
+
 
 export default function Earn() {
     return(
@@ -22,7 +25,7 @@ export default function Earn() {
                 {/* UST/LUNA container */}
             <div className='ust-luna-container'>
                 <div className='ust-container'>
-                    <Image src='' alt='UST' />
+                    <Image src={Ust} alt='UST' style={{width:"30%"}}/>
                     <h2 style={{marginBottom:'20px'}}>UST</h2>
                     <div className='apr-container'>
                         <Button>APR</Button>
@@ -37,7 +40,7 @@ export default function Earn() {
                 </div>
 
                 <div className='luna-container'>
-                    <Image src='' alt='LUNA' />
+                    <Image src={Luna} alt='LUNA' style={{width:"15%"}}/>
                     <h2 style={{marginBottom:'20px'}}>LUNA</h2>
                     <div className='apr-container'>
                         <Button>APR</Button>
